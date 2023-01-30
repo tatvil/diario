@@ -1,0 +1,226 @@
+*
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    --color-oscuro: #006064;
+    --color-medio: #00bcd4;
+    --color-claro: #e0f7fa;
+    }
+.titulo
+    {
+        font-size:2em;
+        padding: 10px;
+        text-align: center;
+        color: var(--color-claro);
+        background-color: var(--color-oscuro);
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+.header 
+    {
+        padding: 10px;
+        text-align: center;
+        color: var(--color-oscuro);
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+.parrafo {
+        background-color:var(--color-claro);
+        color:var(--color-oscuro);
+        border:5px solid var(--color-oscuro);
+        padding: 5%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: larger;
+      }
+
+.subtitulo
+    {
+        font-size:1.5em;
+        padding: 5px;
+        text-align: center;
+        color: var(--color-oscuro);
+        text-decoration: none;
+    }
+  
+.container 
+    {
+        position:absolute;
+        width: 100%;
+        background-color: var(--color-claro);
+        height: 100%;
+        align-items:  center;
+    }
+.elemento
+    {
+        position: relative;
+        background-color: var(--color-oscuro);
+        padding: 10px;
+        width: 40%;
+        text-align: center;
+        margin: 3%;
+        border-radius: 10px;
+        box-shadow: 5px 5px #056569;
+        display: inline-block;
+        max-width: 300px;
+    }
+.elemento a
+    {
+        color: var(--color-claro);
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+footer
+    {
+        position:fixed;
+        bottom:0;
+        width:100%;
+        padding: 5%;
+      text-align: center;
+      color:var(--color-claro);
+      background-color: var(--color-oscuro);
+    }
+a
+    {color: var(--color-medio);}
+
+/* Formularios */
+
+.formulario
+    {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+.boton
+    {
+    background-color: var(--color-oscuro); 
+    border: none;
+    color: var(--color-claro);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5%;
+    border-radius: 12px;
+    }
+.boton:hover
+    {
+        color: var(--color-medio);
+    }
+
+.registros
+    {
+        width: 100%;
+        display: inline-block;
+        position:absolute;
+        padding: 3%
+    }
+.etiqueta
+    {
+        position:relative;
+        width:30%;
+        max-width: 300px;
+        margin: 5px;
+    }
+.campo-200
+    {
+        width:200px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1.5px solid var(--color-oscuro);
+        border-radius: 10px;
+        position:relative;  
+    }
+
+.dato
+    {
+        display: inline-block;
+        padding: 3%;
+    }
+.grupoDatos
+    {
+        display: inline-block;
+        border: solid 1.5px var(--color-oscuro);
+        border-radius: 10px;
+        width:70%;
+        margin:3%;
+        align-content: center;
+    }
+
+  /* Create a custom checkbox */
+.casilla {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    background-color: var(--color-claro);
+    border: var(--color-oscuro);
+  }
+h1{
+    text-align:center;
+    padding:50px;
+}
+  
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: var(--color-oscuro);
+    padding: 10px;
+    font-size: 20px;
+    border: var(--color-oscuro) 10px solid;
+  }
+  
+.grid-container > div {
+    background-color: var(--color-claro);
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 50px;
+  }
+
+.grid-container > div > table
+  {
+    margin: 0 auto;
+  }
+
+.autor
+  {
+      text-align:right;
+  }
+
+select 
+{
+    background: var(--color-claro);
+    border: var(--color-oscuro) 1px;
+    font-size: 1.2rem;
+    height: 40px;
+    padding: 5px;
+    width: 200px;
+ }
+
+ input [type='date'] 
+    {
+    margin: 8px 0;
+    background: var(--color-claro);
+    border: var(--color-oscuro) 1px;
+    font-size: 1.5rem;
+    height: 50px;
+    padding: 5px;
+    width: 200px;
+    }
+
+input [type='number'] 
+    {
+    margin: 8px 0;
+    background: var(--color-claro);
+    border: var(--color-oscuro) 1px;
+    font-size:100px;
+    height: 100px;
+    padding: 5px;
+    width: 200px;
+    }
+
+input[type=text]:focus 
+    {
+        border: 3px solid var(--color-medio);
+      }
